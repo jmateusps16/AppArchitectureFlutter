@@ -1,9 +1,10 @@
-class Carro {
+class CarroEntity {
   String placa;
   int qtdPortas;
   double valor;
 
-  Carro({required this.placa, required this.qtdPortas, required this.valor});
+  CarroEntity(
+      {required this.placa, required this.qtdPortas, required this.valor});
 
   /// Exemplo de regra de negócio:
   /// Calcular o valor do carro pela quantidade de portas que ele possui.
