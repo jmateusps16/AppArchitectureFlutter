@@ -13,3 +13,6 @@ Interação do Software com o usuário ou servidor cliente | Regras de negócio,
 ## Entidades
 Para este contexto são representações de coisas do mundo real em objetos, e podemos ter mais de uma.
 >Objetos podem representar também uma lógica, como pagamento etc...
+
+## Casos de Uso
+É outro tipo de regra de negócio. Aplicamos quando quero manipular essa minha entidade com coisas externas ou não.
