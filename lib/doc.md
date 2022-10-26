@@ -1,4 +1,6 @@
-# Layer != Tier
+# Conceitos de Arquitetura
+
+## Layer != Tier
 Tier é a divisão física (Cliente/Server) já Layer é a divisão lógica (que também pode ser física)
 
 ## Camadas 
@@ -14,6 +16,10 @@ Para este contexto são representações de coisas do mundo real em objetos, e p
 
 ## Casos de Uso
 É outro tipo de regra de negócio. Aplicamos quando quero manipular essa minha entidade com coisas externas ou não.
+
+## 
+
+# Outros conceitos de OO
 
 ## Contratos
 Contratos assim como na vida real é uma forma juridica que envolve a vontade consensual sobre um mesmo objeto, criando, modificando ou extinguindo direitos e obrigações.
