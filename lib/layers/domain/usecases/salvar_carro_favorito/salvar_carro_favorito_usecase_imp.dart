@@ -7,10 +7,7 @@ class SalvarCarroFavoritoUseCaseImp implements SalvarCarroFavoritoUseCase {
   SalvarCarroFavoritoUseCaseImp(this._salvarCarroFavoritoRepository);
 
   @override
-  bool call(CarroEntity carroEntity) {
-    bool result = false;
-    _salvarCarroFavoritoRepository(carroEntity).then((value) => result = value);
-
-    return result;
+  Future<bool> call(CarroEntity carroEntity) async {
+    return await _salvarCarroFavoritoRepository(carroEntity);
   }
 }
