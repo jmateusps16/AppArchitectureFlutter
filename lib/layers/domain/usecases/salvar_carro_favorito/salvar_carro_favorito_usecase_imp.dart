@@ -8,6 +8,7 @@ class SalvarCarroFavoritoUseCaseImp implements SalvarCarroFavoritoUseCase {
 
   @override
   Future<bool> call(CarroEntity carroEntity) async {
+    carroEntity.setAlteraValorAntesDeSalvar();
     return await _salvarCarroFavoritoRepository(carroEntity);
   }
 }

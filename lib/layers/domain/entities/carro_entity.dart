@@ -12,4 +12,11 @@ class CarroEntity {
   double get valorReal {
     return valor * qtdPortas;
   }
+
+  ///Logica para exemplificar no repository
+  setAlteraValorAntesDeSalvar() {
+    if (valorReal > 10000.00) {
+      valor * 2;
+    }
+  }
 }
