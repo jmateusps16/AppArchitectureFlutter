@@ -16,7 +16,7 @@ class CarroEntity {
   ///Logica para exemplificar no repository
   setAlteraValorAntesDeSalvar() {
     if (valorReal > 10000.00) {
-      valor * 2;
+      valor *= 2;
     }
   }
 }
